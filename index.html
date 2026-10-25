@@ -91,6 +91,13 @@
       border: 2px solid #333;
     }
 
+    .link .thumb.logo {
+      border-radius: 10px;
+      object-fit: contain;
+      background: #111;
+      padding: 4px;
+    }
+
     .link .text {
       flex: 1;
     }
@@ -101,6 +108,28 @@
       font-weight: 400;
       color: #888;
       margin-top: 2px;
+    }
+
+    .section-label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-align: left;
+      padding: 4px 4px 2px;
+      margin-top: 4px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #ccc;
+      letter-spacing: 0.3px;
+    }
+
+    .section-label img.flag {
+      width: 28px;
+      height: 19px;
+      object-fit: cover;
+      border-radius: 2px;
+      border: 1px solid #333;
+      flex-shrink: 0;
     }
 
     .support {
@@ -163,6 +192,40 @@
           <span class="subtitle">Report illegal aliens & criminals</span>
         </div>
       </a>
+
+      <!-- line above Sponsorships -->
+      <div style="border-top: 1px solid #333; margin: 8px 0 4px;"></div>
+
+      <div class="support-title" style="margin: 4px 0 10px; text-align: left; padding-left: 4px;">
+        Sponsorships
+      </div>
+
+      <a href="https://belugaboard.app/?ref=lawful-expat" class="link" target="_blank" rel="noopener">
+        <img 
+          src="https://belugaboard.app/assets/logo.svg" 
+          alt="Beluga Board" 
+          class="thumb logo"
+        >
+        <div class="text">
+          Beluga Board
+          <span class="subtitle">Real jobs. Real people. (referral)</span>
+        </div>
+      </a>
+
+      <!-- line under the referral tab -->
+      <div style="border-top: 1px solid #333; margin: 4px 0 8px;"></div>
+
+      <!-- Ecuador section label with real flag (not emoji) -->
+      <div class="section-label">
+        <img 
+          class="flag" 
+          src="https://flagcdn.com/w80/ec.png" 
+          alt="Flag of Ecuador"
+          width="28"
+          height="19"
+        >
+        Ecuador
+      </div>
 
       <a href="https://lawfulexpat.github.io/RyanWiersma/" class="link">
         <img 
